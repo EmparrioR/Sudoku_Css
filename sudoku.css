@@ -1,0 +1,48 @@
+/* with css reset */
+* { box-sizing: border-box; }
+table { 
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: yellow;
+}
+
+tr:first-child td {
+	border-top-color: black;
+}
+tr:nth-child(3n) td {
+	border-bottom-color: black;
+}
+
+
+
+
+td {
+	border: 1px solid lightgray;
+	height: 40px;
+	width: 40px;
+}
+td:first-child {
+	
+	border-left-color: black;
+}
+td:nth-child(3n) {
+	border-right-color: black;
+}
+input {
+	
+	border: 0;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	font-size: large;
+
+}
+
+input:hover {
+	background: #ffffff;
+}
+
+body {
+	background-color: aquamarine;
+}
+
